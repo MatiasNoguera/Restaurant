@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANTES - CARNES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MCS</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>BIENVENIDOS</h2>
+            <p>LAS MEJORES CARNES</p>
+            <a href="#menu" class="btn">Explorar Menú</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="titulo_menús">NUESTRO MENÚ</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Parrillada Clásica</h3>
+                    <p>Selección de los mejores cortes a la parrilla.</p>
+                    <span class="price">$170.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Bife de Chorizo</h3>
+                    <p>Corte jugoso con guarnición a elección.</p>
+                    <span class="price">$210.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Asado Completo</h3>
+                    <p>Incluye costilla, vacío, y chorizo.</p>
+                    <span class="price">$500.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Ofrecemos la mejor calidad en carnes, seleccionadas cuidadosamente y preparadas con técnicas tradicionales. Cada corte es elegido para garantizar frescura, ternura y el mejor gusto en cada bocado, ya sea que busques disfrutar de un jugoso bife de chorizo, una parrillada completa o nuestras especialidades exclusivas, te aseguramos una experiencia culinaria inolvidable. Vení a descubrir por qué somos la elección número uno para los amantes de la carne.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <form id="contact-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Las Mejores Carnes. Derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
